@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#container {
+background: #7CC576;
+    width: 1200px;
+    margin: auto;
+    height: 700px;
+    display: flex;
+}
+
+#container #navv{
+    width: 50%;
+    height: 80%;
+    background: #1a7add;
+    display: flex;
+    margin: auto;
+}
+
+#container #navv nav {
+    width: 93%;
+    height: 94%;
+    border: 8px solid #FFFFFF;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin: auto;
+
+
+}
