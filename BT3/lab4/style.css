@@ -1,21 +1,22 @@
-body {
+html,body {
+    font-family: Arial;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 
-
 #container {
-background: #7CC576;
+    background: #7CC576;
     width: 1200px;
     margin: auto;
     height: 700px;
     display: flex;
 }
 
-#container #navv{
-    width: 50%;
-    height: 80%;
+#container #navv {
+    width: 40%;
+    height: 99%;
     background: #1a7add;
     display: flex;
     margin: auto;
@@ -30,4 +31,208 @@ background: #7CC576;
     margin: auto;
 
 
+}
+nav #contact{
+    color: orangered;
+    margin-left: 20px;
+}
+
+nav #inp {
+    background: white;
+    height: 30%;
+    width: 90%;
+    margin: auto;
+}
+
+nav #inp #fulln, #email, #pass {
+    margin-top: 15px;
+    width: 100%;
+    height: 30%;
+    background: lightgray;
+
+}
+
+nav #inp #fulln #nameinput, #mailinput, #passinput {
+    width: 85%;
+    height: 100%;
+    box-sizing: border-box;
+    background: lightgray;
+    border: none;
+
+    float: right;
+    clear: left;
+
+}
+
+nav #inp #fulln .nameicon {
+    background: lightgray;
+    height: 100%;
+    width: 15%;
+}
+
+nav #inp #fulln .icon {
+    padding: 30%;
+
+    border-right: 2px solid limegreen;
+}
+
+nav #inp #email .nameicon {
+    background: lightgray;
+    height: 100%;
+    width: 15%;
+}
+
+nav #inp #email .icon {
+    padding: 30%;
+    border-right: 2px solid limegreen;
+
+}
+
+nav #inp #pass .nameicon {
+    background: lightgray;
+    height: 100%;
+    width: 15%;
+}
+
+nav #inp #pass .icon {
+    padding: 30%;
+    border-right: 2px solid limegreen;
+
+}
+nav #date {
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 15%;
+    width: 90%;
+
+}
+
+nav #date #top{
+    font-size: 20px;
+    color: orangered;
+}
+nav #date #top #dob{
+    display: inline-block;
+   margin-bottom: 10px;
+}
+nav #date #top #gen{
+    display: inline-block;
+    margin-bottom: 10px;
+   padding-left: 23%;
+}
+nav #date #inleft .inputl{
+display: inline-block;
+    width: 15%;
+    height: 50px;
+box-sizing: border-box;
+    background-color: lightgray;
+    border: 1px solid lightcoral;
+
+}
+nav #date #inleft .inputl::placeholder{
+    text-align: center;
+}
+nav #date #inleft button{
+    display: inline-block;
+    width: 25%;
+    height: 50px;
+    float: right;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 1px solid lightcoral;
+}
+nav #date #inleft button span{
+    color: lightslategray;
+}
+nav #payment{
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 91%;
+    box-sizing: border-box;
+    height: 25%;
+}
+nav #payment #detai>label{
+    font-size: 20px;
+    color: orangered;
+}
+nav #payment #cre{
+    width: 100%;
+    height: 30%;
+    margin-top: 8px;
+}
+nav #payment #cre button{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    background-color: lightgray;
+    border: none;
+    float: left;
+    clear: right;
+}
+nav #payment #cre #buttoncre{
+    background-color: yellowgreen;
+}
+nav #payment #card,#cvc{
+    width: 100%;
+    height: 25%;
+    margin-top: 8px;
+}
+nav #payment #card input{
+   height: 100%;
+    width: 90%;
+    float: right;
+box-sizing: border-box;
+    border: none;
+    border-left: 1px solid lightcoral;
+    background:lightgray;
+
+}
+nav #payment #card .icon{
+    height: 100%;
+    width: 10%;
+    background:lightgray;
+    box-sizing: border-box;
+}
+nav #payment #card .icon i{
+    padding: 23%;
+
+
+}
+nav #payment #cvc input{
+    height: 100%;
+    width: 40%;
+    box-sizing: border-box;
+    border: none;
+    border-left: 1px solid lightcoral;
+    background:lightgray;
+}
+nav #payment #cvc .icon{
+    height: 100%;
+    width: 10%;
+    background:lightgray;
+    box-sizing: border-box;
+    float: left;
+}
+nav #payment #cvc .icon i{
+    padding: 23%;
+
+}
+nav #payment #cvc select{
+    float: right;
+    width: 23%;
+    height: 100%;
+    border: 1px solid lightcoral;
+    background:lightgray;
+}
+nav #terms {
+    margin-top: 25px;
+    margin-left: 18px;
+    width: 92%;
+    box-sizing: border-box;
+}
+nav #terms>label{
+    display: block;
+margin-bottom: 10px;
+    color: orangered;
+    font-size: 18px;
 }
