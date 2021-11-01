@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+          integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <div id="container">
@@ -11,20 +14,86 @@
         <nav>
             <div id="contact">
                 <h3>Sign in</h3>
+
             </div>
             <div id="inp">
 
-            </div>
-            <div id="sign">
+                <div id="fulln">
+                    <input id="nameinput" type="text" placeholder="Full Name">
+                    <div class="nameicon">
+                        <i class="fa fa-user-o icon" aria-hidden="true"></i>
+                    </div>
 
+                </div>
+                <div id="email">
+                    <input id="mailinput" type="text" placeholder="Email Adress">
+                    <div class="nameicon">
+                        <i class="fa fa-envelope-open icon" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="pass">
+                    <input id="passinput" type="text" placeholder="Password">
+                    <div class="nameicon">
+                        <i class="fa fa-key icon" aria-hidden="true"></i>
+                    </div>
+                </div>
             </div>
-            <div id="orlogin">
+            <div id="date">
+                <div id="top">
+                    <label id="dob" for="date">Date of Birth</label>
+                    <label id="gen" for="date"> Gender</label>
+                </div>
 
+                <div id="inleft">
+                    <input type="text" class="inputl" placeholder="DD">
+                    <input type="text" class="inputl" placeholder="MM">
+                    <input type="text" class="inputl" placeholder="YYYY">
+                    <button><span>Male</span></button>
+                    <button><span>Female</span></button>
+                </div>
             </div>
-            <div id="last">
+            <div id="payment">
+                <div id="detai">
+                    <label for="">Payment Details</label>
+                </div>
+                <div id="cre">
+                    <button id="buttoncre"><i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <span>Credit Card</span>
+                    </button>
+                    <button><i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                        <span> Paypal</span></button>
+                </div>
+                <div id="card">
+                    <input type="text" placeholder="Card Number">
+                    <div class="icon">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    </div>
 
+
+                </div>
+                <div id="cvc">
+                    <input type="text" placeholder="Card CVC">
+                    <div class="icon">
+                        <i class="fa fa-user-o icon" aria-hidden="true"></i>
+                    </div>
+
+
+
+                    <select name="" id="">
+                        <option value="">2015</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">01 Jan</option>
+                    </select>
+                </div>
+            </div>
+            <div id="terms">
+                <label for="">Payment Details</label>
+                <form action="">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I accept the tems and conditions for signing up to thhis service and hebery confirm i have read the privacy policy</label>
             </div>
         </nav>
     </div>
- </body>
+</body>
 </html>
