@@ -1,4 +1,4 @@
-html,body {
+html, body {
     font-family: Arial;
     margin: 0;
     box-sizing: border-box;
@@ -32,7 +32,8 @@ html,body {
 
 
 }
-nav #contact{
+
+nav #contact {
     color: orangered;
     margin-left: 20px;
 }
@@ -99,6 +100,7 @@ nav #inp #pass .icon {
     border-right: 2px solid limegreen;
 
 }
+
 nav #date {
     margin-top: 35px;
     margin-left: 20px;
@@ -107,32 +109,37 @@ nav #date {
 
 }
 
-nav #date #top{
+nav #date #top {
     font-size: 20px;
     color: orangered;
 }
-nav #date #top #dob{
-    display: inline-block;
-   margin-bottom: 10px;
-}
-nav #date #top #gen{
+
+nav #date #top #dob {
     display: inline-block;
     margin-bottom: 10px;
-   padding-left: 23%;
 }
-nav #date #inleft .inputl{
-display: inline-block;
+
+nav #date #top #gen {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 23%;
+}
+
+nav #date #inleft .inputl {
+    display: inline-block;
     width: 15%;
     height: 50px;
-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: lightgray;
     border: 1px solid lightcoral;
 
 }
-nav #date #inleft .inputl::placeholder{
+
+nav #date #inleft .inputl::placeholder {
     text-align: center;
 }
-nav #date #inleft button{
+
+nav #date #inleft button {
     display: inline-block;
     width: 25%;
     height: 50px;
@@ -141,26 +148,32 @@ nav #date #inleft button{
     background-color: lightgray;
     border: 1px solid lightcoral;
 }
-nav #date #inleft button span{
+
+nav #date #inleft button span {
     color: lightslategray;
 }
-nav #payment{
+
+nav #payment {
     margin-top: 10px;
     margin-left: 18px;
     width: 91%;
     box-sizing: border-box;
     height: 25%;
 }
-nav #payment #detai>label{
+
+nav #payment #detai > label {
     font-size: 20px;
     color: orangered;
 }
-nav #payment #cre{
+
+nav #payment #cre {
     width: 100%;
     height: 30%;
     margin-top: 8px;
 }
-nav #payment #cre button{
+
+nav #payment #cre button {
+    color: lightslategray;
     display: inline-block;
     width: 50%;
     height: 40px;
@@ -169,70 +182,84 @@ nav #payment #cre button{
     float: left;
     clear: right;
 }
-nav #payment #cre #buttoncre{
+
+nav #payment #cre #buttoncre {
     background-color: yellowgreen;
 }
-nav #payment #card,#cvc{
+
+nav #payment #card, #cvc {
     width: 100%;
     height: 25%;
     margin-top: 8px;
 }
-nav #payment #card input{
-   height: 100%;
+
+nav #payment #card input {
+    height: 100%;
     width: 90%;
     float: right;
-box-sizing: border-box;
+    box-sizing: border-box;
     border: none;
     border-left: 1px solid lightcoral;
-    background:lightgray;
+    background: lightgray;
 
 }
-nav #payment #card .icon{
+
+nav #payment #card .icon {
     height: 100%;
     width: 10%;
-    background:lightgray;
+    background: lightgray;
     box-sizing: border-box;
 }
-nav #payment #card .icon i{
+
+nav #payment #card .icon i {
     padding: 23%;
 
 
 }
-nav #payment #cvc input{
+
+nav #payment #cvc input {
     height: 100%;
     width: 40%;
     box-sizing: border-box;
     border: none;
     border-left: 1px solid lightcoral;
-    background:lightgray;
+    background: lightgray;
 }
-nav #payment #cvc .icon{
+
+nav #payment #cvc .icon {
     height: 100%;
     width: 10%;
-    background:lightgray;
+    background: lightgray;
     box-sizing: border-box;
     float: left;
 }
-nav #payment #cvc .icon i{
+
+nav #payment #cvc .icon i {
     padding: 23%;
 
 }
-nav #payment #cvc select{
+
+nav #payment #cvc select {
     float: right;
     width: 23%;
     height: 100%;
     border: 1px solid lightcoral;
-    background:lightgray;
+    background: lightgray;
+    color: lightslategray;
 }
+
 nav #terms {
     margin-top: 25px;
     margin-left: 18px;
     width: 92%;
     box-sizing: border-box;
+    color: lightslategray;
 }
-nav #terms>label{
+
+nav #terms > label {
     display: block;
-margin-bottom: 10px;
+    margin-bottom: 10px;
     color: orangered;
     font-size: 18px;
+
 }
